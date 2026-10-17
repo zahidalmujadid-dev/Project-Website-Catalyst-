@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catalyst Coffee Roasters - Katalog produk biji kopi single origin, cold brew artisan, drip bag, dan merchandise pilihan terbaik nusantara." />
+  <title>Catalyst Coffee Roasters | Katalog Produk Kopi Nusantara</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="CSS/style.css" />
+  
+  <!-- Favicon Icon (Coffee Cup SVG inline) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d97706'><path d='M2 8v10a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4V8H2zm18 2h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2v4z'/></svg>" />
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Catalyst Coffee Home">
+        <div class="brand-icon">
+          <!-- Coffee Cup Icon -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
+          </svg>
+        </div>
+        Catalyst<span>Roasters</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+        <li><a href="#products" class="nav-link">Katalog Produk</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <!-- CTA Button -->
+      <a href="#products" class="nav-cta">
+        <span>Beli Sekarang</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu Navigasi">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            Specialty Coffee Nusantara
+          </div>
+          <h1>Kenikmatan Kopi Otentik, <span>Dipanggang Segar</span> untuk Anda.</h1>
+          <p class="hero-desc">
+            Catalyst Coffee Roasters menghadirkan kurasi biji kopi single origin pilihan dari dataran tinggi terbaik di Indonesia. Disangrai dengan penuh presisi untuk menghasilkan aroma memikat dan karakter rasa yang kaya.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="btn-primary">
+              <span>Jelajahi Katalog</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#about" class="btn-secondary">
+              <span>Tentang Kami</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>15+</h3>
+              <p>Single Origin</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Petani Lokal</p>
+            </div>
+            <div class="stat-item">
+              <h3>4.9/5</h3>
+              <p>Rating Rasa</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-featured">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&auto=format&fit=crop&q=80" alt="Specialty Coffee Dripping" />
+            <div class="hero-floating-badge">
+              <div class="floating-info">
+                <h4>Signature House Blend</h4>
+                <p>Freshly Roasted Weekly</p>
+              </div>
+              <div class="floating-rating">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>4.9 / 5.0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT / PROFILE SECTION ==================== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <div class="badge-tag">Filosofi & Profil</div>
+          <h2>Menghubungkan Petani Lokal dengan Cangkir Kopi Anda</h2>
+          <p>
+            Berdiri sejak tahun 2024, <strong>Catalyst Coffee Roasters</strong> lahir dari kecintaan kami terhadap kekayaan rasa tanah nusantara. Kami percaya bahwa secangkir kopi terbaik dimulai dari apresiasi terhadap keringat para petani di perkebunan.
+          </p>
+          <div class="about-highlight">
+            "Kami tidak sekadar menjual biji kopi, kami menyajikan cerita, dedikasi, dan seni rasa dari seluruh penjuru Indonesia."
+          </div>
+          <p>
+            Setiap kemasan yang Anda nikmati telah melalui proses seleksi ketat (cupping score > 82), dipanggang dengan mesin sangrai modern bersuhu presisi, dan dikemas rapat untuk menjamin kesegaran aroma hingga ke tangan Anda.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Direct Trade</h3>
+            <p>Bermitra langsung dengan petani di Gayo, Toraja, hingga Flores dengan sistem harga yang adil.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3>Fresh Roasted</h3>
+            <p>Disangrai berkala setiap minggu untuk memastikan profil rasa biji kopi tetap optimal dan segar.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              </svg>
+            </div>
+            <h3>Eco Packaging</h3>
+            <p>Kemasan bervalve satu arah menjaga gas CO2 keluar tanpa merusak aroma, ramah lingkungan.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3>Q-Grader Certified</h3>
+            <p>Kualitas rasa dikurasi dan diuji langsung oleh tim roaster dan barista bersertifikasi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. MAIN CONTENT: KATALOG PRODUK ==================== -->
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Koleksi Pilihan</div>
+          <h2 class="section-title">Katalog Produk <span>Terlengkap</span></h2>
+          <p class="section-subtitle">
+            Temukan biji kopi single origin favorit Anda, racikan cold brew segar, hingga peralatan seduh manual berkualitas.
+          </p>
+        </div>
+
+        <!-- Catalog Toolbar: Search Bar & Category Filters -->
+        <div class="catalog-toolbar">
+          <div class="search-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              class="search-input" 
+              id="search-input" 
+              placeholder="Cari biji kopi, cold brew, atau alat seduh..." 
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">Semua Produk</button>
+            <button class="filter-btn" data-filter="beans">Biji Kopi</button>
+            <button class="filter-btn" data-filter="brew">Ready to Drink</button>
+            <button class="filter-btn" data-filter="drip">Drip Bag</button>
+            <button class="filter-btn" data-filter="merch">Alat & Merch</button>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid (Populated dynamically via JavaScript/main.js) -->
+        <div class="products-grid" id="products-grid">
+          <!-- Loading placeholder cards / dynamic content -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. CONTACT & FOOTER SECTION ==================== -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <div class="badge-tag">Hubungi Kami</div>
+          <h2>Kunjungi Roastery Kami atau Pesan Online</h2>
+          <p>
+            Ingin berkonsultasi mengenai rasa kopi yang cocok untuk Anda atau membutuhkan pasokan biji kopi untuk kafe? Jangan ragu untuk menghubungi tim kami.
+          </p>
+
+          <div class="contact-items">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <h4>Lokasi Outlet & Roastery</h4>
+                <p>Jl. Senopati Raya No. 42, Kebayoran Baru, Jakarta Selatan 12190</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Jam Operasional</h4>
+                <p>Senin – Minggu: 08.00 – 22.00 WIB</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Customer Service (WhatsApp)</h4>
+                <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">+62 812-3456-7890 (Respon Cepat)</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Email Resmi</h4>
+                <p><a href="mailto:halo@catalystroasters.id">halo@catalystroasters.id</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cta">
+          <div class="direct-order-box">
+            <h3>Pesan Cepat via WhatsApp</h3>
+            <p>
+              Pilih produk di katalog kami atau tanyakan rekomendasi langsung kepada barista kami. Pengiriman tersedia ke seluruh Indonesia.
+            </p>
+            <a 
+              href="https://wa.me/6281234567890?text=Halo%20Catalyst%20Coffee%20Roasters,%20saya%20ingin%20tanya%20produk%20kopi%20Anda." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-primary" 
+              style="width: 100%; justify-content: center;"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              Chat Barista Sekarang
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo">
+            <div class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+              </svg>
+            </div>
+            Catalyst<span>Roasters</span>
+          </a>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#products">Katalog</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Catalyst Coffee Roasters. Final Assignment Mini Project.</p>
+        <p>Built with Vanilla HTML, CSS & JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL POPUP (DETAIL PRODUK) ==================== -->
+  <div class="modal-overlay" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Detail Produk">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-grid">
+        <div class="modal-image-col">
+          <img id="modal-img" src="" alt="Detail Produk" />
+        </div>
+        <div class="modal-body">
+          <span class="modal-badge" id="modal-badge">Best Seller</span>
+          <h2 class="modal-title" id="modal-title">Nama Produk</h2>
+          <div class="modal-price" id="modal-price">Rp 0</div>
+          <p class="modal-desc" id="modal-desc">Deskripsi lengkap produk...</p>
+
+          <div class="modal-specs">
+            <div class="spec-item">
+              <span>Asal / Origin</span>
+              <strong id="modal-origin">-</strong>
+            </div>
+            <div class="spec-item">
+              <span>Tingkat Roasting</span>
+              <strong id="modal-roast">-</strong>
+            </div>
+            <div class="spec-item">
+              <span>Netto / Ukuran</span>
+              <strong id="modal-weight">-</strong>
+            </div>
+            <div class="spec-item">
+              <span>Status Stok</span>
+              <strong id="modal-stock">-</strong>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <a id="modal-wa-btn" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Pesan via WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="JavaScript/data.js"></script>
+  <script src="JavaScript/main.js"></script>
+</body>
+</html>

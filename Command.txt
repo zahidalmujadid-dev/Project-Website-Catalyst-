@@ -1,0 +1,24 @@
+create planning to build a catalog produk website, 
+with 4 section:
+1. Home / Hero Section:
+    • Nama project, bisnis.
+    • Deskripsi atau pengenalan singkat.
+    • Navigasi atau tombol yang membantu pengguna menjelajahi website.
+2. About / Profile
+    • Informasi mengenai bisnis.
+3. Main Content
+    • Bagian utama yang sesuai dengan tema project.
+    • Contoh: layanan dan produk untuk bisnis
+4. Contact & Footer
+    • Informasi kontak atau media sosial yang relevan.
+    • Footer berisi informasi atau tautan pendukung.
+
+Limitation:
+• Website bersifat statis.
+• Tidak perlu backend, database, autentikasi, maupun fitur CRUD.
+• Tidak wajib menggunakan framework atau library tertentu.
+• Tidak wajib melakukan deployment.
+• Desain bebas, tetapi website harus memiliki struktur yang jelas, konten yang relevan, dan navigasi
+yang berfungsi.
+
+make it easy to understand
