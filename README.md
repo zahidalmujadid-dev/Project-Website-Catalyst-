@@ -17,7 +17,7 @@ Website ini dibangun dalam format **Single-Page Application (SPA)** dengan navig
 
 | No | Nama Lengkap | Username GitHub | Peran / Fokus Pekerjaan |
 |---|---|---|---|
-| 1 | [Nama Anggota 1] | `@username1` | Hero Section, Navbar Responsif, & Setup Desain Dasar |
+| 1 | [Zahid Al Mujaddid Giat Koentjoro] | `@zahidalmujadid-dev` | Hero Section, Navbar Responsif, & Setup Desain Dasar |
 | 2 | [Nama Anggota 2] | `@username2` | About Section, Nilai Bisnis, & Profil Perusahaan |
 | 3 | [Nama Anggota 3] | `@username3` | Main Content: Struktur Grid Produk, Data Objek (`data.js`) & Filter Kategori |
 | 4 | [Nama Anggota 4] | `@username4` | Logika Live Search, Pop-up Modal Detail Produk, Kontak & Footer |
