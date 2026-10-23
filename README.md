@@ -111,7 +111,7 @@ Sesuai instruksi Catalyst Weekly Meet, pengembangan proyek mengikuti standar alu
 ## 📁 Struktur Berkas
 
 ```text
-Project Catalyst/
+Project-Catalyst/
 ├── index.html                   # Halaman utama website (Entry point)
 ├── main.html                    # Halaman alternatif
 ├── CSS/
@@ -120,7 +120,7 @@ Project Catalyst/
 │   ├── data.js                 # Dataset produk statis (Array of objects)
 │   └── main.js                 # Interaktivitas (Filter, Search, Modal, Mobile Nav)
 ├── screenshots/                 # Dokumentasi tampilan layar website
-├── Catalyst for Maba - Final Assignment.pdf  # Dokumen panduan tugas
+├── Catalyst-for-Maba-Final-Assignment.pdf  # Dokumen panduan tugas
 ├── Command.txt                  # Catatan instruksi
 └── README.md                    # Dokumentasi lengkap proyek
 ```

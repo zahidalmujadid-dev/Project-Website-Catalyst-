@@ -1,6 +1,6 @@
 # 📋 Rencana Pengerjaan: Website Katalog Produk (Catalyst Final Assignment)
 
-Dokumen ini berisi perencanaan menyeluruh, jelas, dan mudah dipahami untuk membangun **Website Katalog Produk** statis menggunakan **HTML, CSS, dan Vanilla JavaScript**, sesuai dengan ketentuan pada [Catalyst for Maba - Final Assignment.pdf](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/Catalyst%20for%20Maba%20-%20Final%20Assignment.pdf).
+Dokumen ini berisi perencanaan menyeluruh, jelas, dan mudah dipahami untuk membangun **Website Katalog Produk** statis menggunakan **HTML, CSS, dan Vanilla JavaScript**, sesuai dengan ketentuan pada [Catalyst-for-Maba-Final-Assignment.pdf](./Catalyst-for-Maba-Final-Assignment.pdf).
 
 ---
 
@@ -26,7 +26,7 @@ Website katalog produk dirancang untuk menampilkan produk atau layanan sebuah bi
 Struktur folder disesuaikan dengan folder yang sudah ada di workspace saat ini:
 
 ```text
-Project Catalyst/
+Project-Catalyst/
 ├── index.html / main.html    # Struktur halaman utama (Single Page Application dengan 4 section)
 ├── CSS/
 │   └── style.css            # Styling visual, layout responsif, tema warna, animasi
@@ -96,7 +96,7 @@ graph TD
 
 ## 4. Konsep Teknis (Sesuai Batasan: Statis & Tanpa Backend)
 
-Karena **tidak menggunakan backend/database**, data produk dikelola secara cerdas menggunakan array JavaScript di [`JavaScript/data.js`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/JavaScript/data.js):
+Karena **tidak menggunakan backend/database**, data produk dikelola secara cerdas menggunakan array JavaScript di [`JavaScript/data.js`](./JavaScript/data.js):
 
 ```javascript
 // Contoh struktur data produk di data.js
@@ -116,7 +116,7 @@ const productsData = [
 ];
 ```
 
-**Fungsi [`JavaScript/main.js`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/JavaScript/main.js)**:
+**Fungsi [`JavaScript/main.js`](./JavaScript/main.js)**:
 1.  **Render Dinamis**: Membaca `productsData` dan membuat elemen HTML kartu produk ke dalam grid.
 2.  **Filter Kategori**: Menyaring produk sesuai tombol kategori yang diklik.
 3.  **Live Search**: Menyaring produk sesuai ketikan pengguna di kotak pencarian.
@@ -150,14 +150,14 @@ Sesuai instruksi pada PDF Final Assignment (hal. 2-3), proyek wajib mengimplemen
 
 - [ ] **Fase 1: Fondasi & Setup Awal**
   - Buat kerangka dasar di `index.html` (atau tautkan `main.html` sebagai titik masuk).
-  - Siapkan warna tema, tipografi (Google Font), dan CSS reset di [`CSS/style.css`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/CSS/style.css).
+  - Siapkan warna tema, tipografi (Google Font), dan CSS reset di [`CSS/style.css`](./CSS/style.css).
 - [ ] **Fase 2: Implementasi Hero & About Section**
   - Buat Navbar sticky dengan navigasi anchor (`#home`, `#about`, `#products`, `#contact`).
   - Selesaikan Hero Section dengan pesan selamat datang dan CTA.
   - Selesaikan About Section dengan cerita brand dan keunggulan.
 - [ ] **Fase 3: Implementasi Katalog Produk Dinamis**
-  - Isi data dummy produk (6-8 produk) di [`JavaScript/data.js`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/JavaScript/data.js).
-  - Tulis fungsi render otomatis kartu produk ke dalam grid di [`JavaScript/main.js`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/JavaScript/main.js).
+  - Isi data dummy produk (6-8 produk) di [`JavaScript/data.js`](./JavaScript/data.js).
+  - Tulis fungsi render otomatis kartu produk ke dalam grid di [`JavaScript/main.js`](./JavaScript/main.js).
   - Tambahkan fitur filter kategori dan live search bar.
   - Buat modal popup untuk detail produk.
 - [ ] **Fase 4: Implementasi Kontak & Footer**
@@ -166,7 +166,7 @@ Sesuai instruksi pada PDF Final Assignment (hal. 2-3), proyek wajib mengimplemen
 - [ ] **Fase 5: Uji Coba Responsif & Dokumentasi Deliverables**
   - Uji tampilan di layar desktop dan smartphone (responsif).
   - Simpan screenshot website ke folder `screenshots/`.
-  - Lengkapi [`README.md`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/README.md) sesuai ketentuan halaman 3 PDF (nama anggota, deskripsi, cara menjalankan lokal, pembagian tugas).
+  - Lengkapi [`README.md`](./README.md) sesuai ketentuan halaman 3 PDF (nama anggota, deskripsi, cara menjalankan lokal, pembagian tugas).
 
 ---
 
@@ -177,5 +177,5 @@ Sebelum deadline (Jumat, 30 Oktober 2026), pastikan item berikut lengkap:
 * [ ] 4 Section utama lengkap dan navigasi berfungsi.
 * [ ] Terdapat 4–8 GitHub Issues yang tercatat.
 * [ ] Setiap anggota memiliki branch, commit, dan minimal 1 Pull Request yang telah di-review.
-* [ ] File [`README.md`](file:///c:/Users/Fiy/Desktop/Set%20of%20Projects/Project%20Catalyst/README.md) terisi lengkap sesuai format Catalyst.
+* [ ] File [`README.md`](./README.md) terisi lengkap sesuai format Catalyst.
 * [ ] Screenshot tampilan website tersimpan di repository.
